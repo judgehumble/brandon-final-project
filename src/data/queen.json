@@ -49,77 +49,92 @@
     {
       "title": "Queen",
       "year": 1973,
-      "image": "Queen_Queen.png"
+      "image": "Queen_Queen.png",
+      "link": "https://www.amazon.com/Queen/dp/B000000OAL/ref=tmm_acd_swatch_0?_encoding=UTF8&qid=&sr="
     },
     {
       "title": "Queen II",
       "year": 1974,
-      "image": "Queen_Queen_II.jpg"
+      "image": "Queen_Queen_II.jpg",
+      "link": "https://www.amazon.com/dp/B0052SNOLC/ref=ntt_mus_ep_dpi_10"
     },
     {
       "title": "Sheer Heart Attack",
       "year": 1974,
-      "image": "Queen_Sheer_Heart_Attack.png"
+      "image": "Queen_Sheer_Heart_Attack.png",
+      "link": "https://www.amazon.com/dp/B08ZFSMVC6/ref=ntt_mus_ep_dpi_11"
     },
     {
       "title": "A Night at the Opera",
       "year": 1975,
-      "image": "Queen_A_Night_At_The_Opera.png"
+      "image": "Queen_A_Night_At_The_Opera.png",
+      "link": "https://www.amazon.com/dp/B000000OAN/ref=ntt_mus_ep_dpi_24"
     },
     {
       "title": "A Day at the Races",
       "year": 1976,
-      "image": "Queen_A_Day_at_the_Races.jpg"
+      "image": "Queen_A_Day_at_the_Races.jpg",
+      "link": "https://www.amazon.com/dp/B08ZFRP6SP/ref=ntt_mus_ep_dpi_2"
     },
     {
       "title": "News of the World",
       "year": 1977,
-      "image": "Queen_News_Of_The_World.png"
+      "image": "Queen_News_Of_The_World.png",
+      "link": "https://www.amazon.com/dp/B000000OAC/ref=ntt_mus_ep_dpi_14"
     },
     {
       "title": "Jazz",
       "year": 1978,
-      "image": "Queen_Jazz.png"
+      "image": "Queen_Jazz.png",
+      "link": "https://www.amazon.com/dp/B07H62NZJR/ref=ntt_mus_ep_dpi_19"
     },
     {
       "title": "The Game",
       "year": 1980,
-      "image": "Queen_The_Game.png"
+      "image": "Queen_The_Game.png",
+      "link": "https://www.amazon.com/dp/B07H5VTBG4/ref=ntt_mus_ep_dpi_14"
     },
     {
       "title": "Flash Gordon (Original Soundtrack)",
       "year": 1980,
-      "image": "Queen_Flash_Gordon.png"
+      "image": "Queen_Flash_Gordon.png",
+      "link": "https://www.amazon.com/dp/B000000OBF/ref=ntt_mus_ep_dpi_10"
     },
     {
       "title": "Hot Space",
       "year": 1982,
-      "image": "Queen_Hot_Space.png"
+      "image": "Queen_Hot_Space.png",
+      "link": "https://www.amazon.com/dp/B000000OAE/ref=ntt_mus_ep_dpi_17"
     },
     {
       "title": "The Works",
       "year": 1984,
-      "image": "Queen_The_Works.png"
+      "image": "Queen_The_Works.png",
+      "link": "https://www.amazon.com/dp/B00UZUUA6E/ref=ntt_mus_ep_dpi_8"
     },
     {
       "title": "A Kind of Magic",
       "year": 1986,
-      "image": "Queen_A_Kind_Of_Magic.png"
+      "image": "Queen_A_Kind_Of_Magic.png",
+      "link": "https://www.amazon.com/dp/B002E2M3L6/ref=ntt_mus_ep_dpi_2"
     },
     {
       "title": "The Miracle",
       "year": 1989,
-      "image": "Queen_The_Miracle.png"
+      "image": "Queen_The_Miracle.png",
+      "link": "https://www.amazon.com/dp/B000000OBN/ref=ntt_mus_ep_dpi_20"
     },
     {
       "title": "Innuendo",
       "year": 1991,
-      "image": "Queen_Innuendo.png"
+      "image": "Queen_Innuendo.png",
+      "link": "https://www.amazon.com/dp/B000000OA6/ref=ntt_mus_ep_dpi_6"
     },
     {
       "title": "Made in Heaven",
       "year": 1995,
-      "image": "Queen_Made_in_Heaven.jpg"
+      "image": "Queen_Made_in_Heaven.jpg",
+      "link": "https://www.amazon.com/dp/B000000OE7/ref=ntt_mus_ep_dpi_18"
     }
   ],
   "billboard": [

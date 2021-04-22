@@ -2,7 +2,7 @@
 
 {% set relative_path = "../" %}
 
-{% block page_title %}{{ name }}{% endblock %}
+{% block page_title %}Queen | {{ name }}{% endblock %}
 
 {% block page_description %} Meet the Band |{{ name }}{% endblock %}
 
@@ -11,13 +11,13 @@
     <div class="row">
       <div class="col-sm-4">
           <img src="../img/queen/members/{{ imagebw }}" alt="" class="img-fluid mb-4">
-          <p class="byline"> Tenure: {{tenure}} </p>
-          <p class="byline"> Instruments played: {{instruments}} </p>
+          <p class="byline"><strong>Years active:</strong> {{tenure}} </p>
+          <p class="byline"><strong>Instruments:</strong> {{instruments}} </p>
       </div>
       <div class="col-sm-8">
           <h1>{{ name }}</h1>
+          <h6><strong>Born:</strong> {{birthdate}}</h6>
           <h5>{{birthplace}}</h5>
-          <h6>Born: {{birthdate}}</h6>
           <p>{{ description | safe }}</p>
       </div>
     </div>

@@ -1,0 +1,36 @@
+{% extends '_templates/base.njk' %}
+
+{% block page_title %}Queen | Tour{% endblock %}
+
+{% block page_description %}Book your tickets to see us on tour today!{% endblock %}
+
+{% block content %}
+
+<article class="container">
+  <h1>World Tour</h1>
+  <p>Find one of our tours near you!</p>
+
+  <div class="row">
+    {% for tour2021 in queen.tour2021 %}
+    <div class="table-responsive table-hover">
+      <table class="table">
+          <thead>
+            <tr>
+              <th>City</th>
+              <th>Date</th>
+              <th>Venue</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>{{tour2021.city}}</td>
+              <td>{{tour2021.date}}</td>
+              <td>{{tour2021.venue}}</td>
+            </tr>
+          </tbody>
+      </table>
+    </div>
+    {% endfor %}
+  </div>
+</article>
+{% endblock %}

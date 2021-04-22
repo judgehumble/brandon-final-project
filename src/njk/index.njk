@@ -1,6 +1,6 @@
 {% extends '_templates/base.njk' %}
 
-{% block page_title %}Queen{% endblock %}
+{% block page_title %}Queen | Home{% endblock %}
 
 {% block page_description %}The index search description for this page goes here.{% endblock %}
 
@@ -19,15 +19,27 @@
     {% endfor %}
   </div>
   
+  <br>
   <h2>Upcoming Tours</h2>
-  <p>This loops through data that came from a Google Sheet example.</p>
+  <p>Check out more of our upcoming shows <a href="tour.html">here</a>.</p>
   <hr>
   {% for tour2021 in queen.tour2021 %}
-    <div class="col sm">
-      <h3><a href="#" target="_blank">{{ tour2021.city }}</a></h3>
-      <p>{{ tour2021.date}}, {{ tour2021.venue }}</p>
-      <hr>
-    </div>
+  <div class="table-responsive table-hover" id="tableHome">
+    <table class="table">
+          <tr>
+            <th scope="col">City</th>
+            <td>{{tour2021.city}}</td>
+          </tr>
+          <tr>
+            <th scope="col">Date</th>
+            <td>{{tour2021.date}}</td>
+          </tr>
+          <tr>
+            <th scope="col">Venue</th>
+            <td>{{tour2021.venue}}</td>
+          </tr>
+    </table>
+  </div>
   {% endfor %}
 </div>
 {% endblock %}

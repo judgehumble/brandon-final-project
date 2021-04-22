@@ -1,0 +1,29 @@
+{% extends '_templates/base.njk' %}
+
+{% block page_title %}Queen | Albums{% endblock %}
+
+{% block page_description %}The complete Queen discography{% endblock %}
+
+{% block content %}
+
+<article class="container">
+  <h1>Albums</h1>
+  <p>The complete discography. Purchase your copy today!</p>
+
+  <div class="row">
+    {% for discography in queen.discography %}
+    <div class="col-sm-6 col-lg-4">
+      <div class="card mb-4 bg-light border-secondary">
+        <div class="card-body">
+          <a  href="{{ discography.link }}" target="blank">
+            <img src="img/queen/discs/{{ discography.image }}" alt="" class="img-fluid">
+          </a>
+          <h5 class="card-title">{{ discography.title }}</h5>
+          <h6 class="card-text">{{ discography.year }}</h6>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</article>
+{% endblock %}
