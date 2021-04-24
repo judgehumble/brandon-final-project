@@ -1,0 +1,19 @@
+{% extends '_templates/base.njk' %}
+
+{% block page_title %}Queen | Billboard{% endblock %}
+
+{% block page_description %}Check out our most popular songs featured on the Billboard Hot 100{% endblock %}
+
+{% block content %}
+
+<article class="container">
+  <h1>Songs featured on the Billboard Hot 100</h1>
+  <p>Check out our most popular songs!</p>
+
+  <div class="row">
+    <iframe title="Queen's most popular songs featured on the Billboard Hot 100" aria-label="Split Bars" id="datawrapper-chart-aNAAu" src="https://datawrapper.dwcdn.net/aNAAu/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="680"></iframe>
+    <script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
+    </script>
+  </div>
+</article>
+{% endblock %}
