@@ -8,7 +8,9 @@
 <!-- Introduction -->
 <div class="container" id="introduction">
   <h1 class="text-center">Welcome to Queen</h1>
-  <p>Galaxies rich in heavy atoms tesseract invent the universe the only home we've ever known take root and flourish. Not a sunrise but a galaxyrise a very small stage in a vast cosmic arena network of wormholes a very small stage in a vast cosmic arena two ghostly white figures in coveralls and helmets are softly dancing Orion's sword and billions upon billions upon billions upon billions upon billions upon billions upon billions.</p>
+  <p>Queen are a British rock band formed in London in 1970. Their classic line-up was Freddie Mercury (lead vocals, piano), Brian May (guitar, vocals), Roger Taylor (drums, vocals) and John Deacon (bass). Their earliest works were influenced by progressive rock, hard rock and heavy metal, but the band gradually ventured into more conventional and radio-friendly works by incorporating further styles, such as arena rock and pop rock.</p>
+
+  <p>Source - <a href="https://en.wikipedia.org/wiki/Queen_(band)" target="blank">Wikipedia</a></p>
   
 <!-- Members -->
   <h2>Meet the Band</h2>
@@ -16,7 +18,7 @@
     {% for members in queen.members %}
       <div class="col-3">
         <img src="img/queen/members/{{ members.image }}" alt="" class="img-fluid">
-        <h5><a href="about/{{ members.slug }}.html">{{ members.name }}</a></h5>
+        <h5 class="text-center"><a href="about/{{ members.slug }}.html">{{ members.name }}</a></h5>
       </div>
     {% endfor %}
   </div>
@@ -28,7 +30,7 @@
       {% for discography in queen.discography %}
       <div class="carousel-item {% if loop.first %}active{% endif %} img-fluid">
           <img class="d-block w-100 img-responsive" src="../img/queen/discs/{{discography.image}}" alt="Slide">
-          <div class="card-body">
+          <div class="card-body bg-light">
           <h5 class="card-title">{{ discography.title }}</h5>
           <h6 class="card-text">{{ discography.year }}</h6>
           </div>

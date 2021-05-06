@@ -1,6 +1,41 @@
-.jumbotron.banner {
-  background: url(../img/queen/queen-band-wallpaper-thin.jpg) no-repeat center;
+/*.jumbotron.banner {
+  background: url(../img/queen/queen-band-wallpaper-thin-cropped.jpg) 
+  no-repeat center;
   background-size: cover;
   color: white;
-  padding: 12rem;
+  padding: 4rem;
 }
+*/
+
+.jumbotron.banner {
+  padding: 0rem;
+}
+
+.slides {
+  background: no-repeat cover center;
+  color: white;
+  z-index: 0;
+}
+
+.overlay {
+  z-index: 1;
+  position: absolute;
+  opacity: 0.9;
+  padding: 8rem;
+  width: 60%;
+}
+/*
+.slides {
+  background: no-repeat cover center;
+  padding: 12rem;
+  color: white;
+}
+
+.slide-1 {
+  background-image: url(../img/queen/queen-band-wallpaper-thin-cropped.jpg);
+}
+
+.slide-2 {
+  background-image: url(../img/queen/queen-live-on-stage-cropped.jpg);
+}
+*/

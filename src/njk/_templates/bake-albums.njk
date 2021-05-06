@@ -1,0 +1,19 @@
+{% extends '_templates/base.njk' %}
+
+{% set relative_path = "../" %}
+
+{% block page_title %} Albums{% endblock %}
+
+{% block page_description %} The complete Queen discography{% endblock %}
+
+{% block content %}
+  <article class="container">
+    <div class="row">
+      <div class="col-sm-6 col-md-4">
+          <img src="../img/queen/discs/{{ image }}" alt="" class="img-fluid mb-4">
+          <h5 class="byline"> {{title}} </h5>
+          <h6 class="byline"> {{year}} </h6>
+      </div>
+    </div>
+  </article>
+{% endblock %}
